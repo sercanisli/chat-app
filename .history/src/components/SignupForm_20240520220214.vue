@@ -27,7 +27,7 @@ export default {
       await signup(email.value, password.value, displayName.value);
     };
 
-    return { displayName, email, password, handleSubmit };
+    return { displayName, email, password };
   },
 };
 </script>
